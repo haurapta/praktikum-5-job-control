@@ -25,6 +25,7 @@ Ganti nama /home/mahasiswa dengan nama anda sendiri. Pada setiap   file tersebut
 
 ### b. Eksperimen hasil PS1 : $ PS1=“\! > “   69 > PS1=”\d > “   Mon Sep 23 > PS1=”\t > “   10:10:20 > PS1=”Saya=\u > “  Saya=mahasiswa > PS1=”\w >”  ~ > PS1=\h >” 
 <img width="675" height="148" alt="pk5 2b" src="https://github.com/user-attachments/assets/38245304-d299-48c1-bf8d-0f37eeaed20f" />
+
 ## 3. Logout Edit file .bash_logout, tampilkan pesan dan tahan selama 5 detik, sebelum eksekusi logout Echo “Terima kasih atas sesi yang diberikan”  Sleep 5   clear   
 <img width="659" height="454" alt="pk5 3aaa" src="https://github.com/user-attachments/assets/eddf3c87-5b0a-4b3b-b687-20cf8cd414c6" />
 <img width="670" height="438" alt="pk5 3aa" src="https://github.com/user-attachments/assets/cacb74b1-e780-4229-9209-939319ca89da" />
@@ -33,6 +34,7 @@ Ganti nama /home/mahasiswa dengan nama anda sendiri. Pada setiap   file tersebut
 ## 4. Bash script 
 ### a. Buat 3 buah script p1.sh, p2.sh, p3.sh dengan isi masing-masing : p1.sh   #! /bin/bash   echo “Program p1” ls –l p2.sh   #! /bin/bash   echo “Program p2” who p3.sh   #! /bin/bash   echo “Program p3” ps x 
 <img width="677" height="623" alt="pk5 4a" src="https://github.com/user-attachments/assets/32c37a5d-c47c-44a1-8df6-8f307593aad8" />
+
 ### b. Jalankan script tersebut sebagai berikut : $ ./p1.sh ; ./p3.sh ; ./p2.sh $ ./p1.sh & $ ./p1.sh $ ./p2.sh & ./p3.sh & $ ./p1.sh ; ./p3.sh ) & 
 <img width="673" height="618" alt="pk5 4bbb" src="https://github.com/user-attachments/assets/71fbdde2-6e8d-46e9-9ff3-3105408013b0" />
 <img width="662" height="620" alt="pk5 4bb" src="https://github.com/user-attachments/assets/48b15e04-d3cb-4fe4-ad62-acf74d362751" />
@@ -41,10 +43,13 @@ Ganti nama /home/mahasiswa dengan nama anda sendiri. Pada setiap   file tersebut
 ## 5. Jobs 
 ### a. Buat shell-script yang melakukan loop dengan nama pwaktu.sh, setiap 10 detik, kemudian menyimpan tanggal dan jam pada file hasil. #!/bin/bash   while [ true ]  do   date >> hasil  sleep 10 done   
 <img width="644" height="100" alt="pk5 5a" src="https://github.com/user-attachments/assets/97c96161-9d8c-49fd-8ba8-52f01e6c2568" />
+
 ### b. Jalankan sebagai background; kemudian jalankan satu program (utilitas find) di background sebagai berikut : $ jobs $ find / -print > files 2>/dev/null & $ jobs 
 <img width="655" height="92" alt="pk5 5b" src="https://github.com/user-attachments/assets/bda3b30e-c157-42b6-974e-890dc35cbf5a" />
+
 ### c. Jadikan program ke 1 sebagai foreground, tekan ^Z dan kembalikan program tersebut ke background $ fg %1 $ bg 
 <img width="667" height="178" alt="pk5 5c" src="https://github.com/user-attachments/assets/229cb579-4083-40d7-82f0-fa8f11b0629b" />
+
 ### d. Stop program background dengan utilitas kill $ ps x $ kill [Nomor PID] 
 <img width="685" height="607" alt="pk5 5d" src="https://github.com/user-attachments/assets/4a9a841c-0191-44b2-81f7-3a94e778fe5b" />
 <img width="673" height="90" alt="pk5 5dd" src="https://github.com/user-attachments/assets/a32eb05d-58c9-460d-a63f-02955ac8ba0e" />
