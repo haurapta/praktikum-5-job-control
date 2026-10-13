@@ -11,14 +11,17 @@ VI. Tugas
 #### /home/mahasiswa/.profile   
 #### /home/mahasiswa/.bashrc 
 <img width="696" height="475" alt="pk5 1bb" src="https://github.com/user-attachments/assets/4fc4e2f4-b9bb-4386-b2e1-d59e9a2e8315" />
-<img width="681" height="477" alt="pk5 1bbb" src="https://github.com/user-attachments/assets/103f2e92-f7e1-47a0-a12e-e158bec3d25f" />
 <img width="671" height="442" alt="pk5 1b" src="https://github.com/user-attachments/assets/d08a3058-c15f-406c-a7fa-687faf14f81b" />
+<img width="681" height="477" alt="pk5 1bbb" src="https://github.com/user-attachments/assets/103f2e92-f7e1-47a0-a12e-e158bec3d25f" />
 
 Ganti nama /home/mahasiswa dengan nama anda sendiri. Pada setiap   file tersebut, cantumkan mahasiswa/.bash_profile : instruksi echo, misalnya pada /home/ echo “Profile dari .bash_profile” Lakukan hal yang sama untuk file lainnya, sesuaikan tampilan dengan nama file yang bersangkutan.   
+
 ### c. Jalankan instruksi subtitute user, kemudian keluar dengan perintah exit sebagai berikut: $ su mahasiswa $ exit kemudian gunakan opsi – sebagai berikut : $ su – mahasiswa $ exit Jelaskan perbedaan kedua utilitas tersebut.
+<img width="658" height="297" alt="pk5 1c" src="https://github.com/user-attachments/assets/ad1bc2b2-effc-43f0-9d8e-6c3df951f33d" />
 
 ## 2. Prompt String (PS) 
 ### a. Edit file .bash_profile, ganti prompt PS1 dengan ‘>’. Instruksi export diperlukan dengan parameter nama variable tersebut, agar perubahan variable PS1 dikenal oleh semua shell PS1=’> ‘   export PS1 
+<img width="665" height="76" alt="pk5 2a" src="https://github.com/user-attachments/assets/f6a707e6-da65-48d3-938d-9fcbd2e8bdd1" />
 
 ### b. Eksperimen hasil PS1 : $ PS1=“\! > “   69 > PS1=”\d > “   Mon Sep 23 > PS1=”\t > “   10:10:20 > PS1=”Saya=\u > “  Saya=mahasiswa > PS1=”\w >”  ~ > PS1=\h >” 
 
