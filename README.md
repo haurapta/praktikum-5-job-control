@@ -1,1 +1,1 @@
-# praktikum-5-job-control
+# tugas-6-job-control
