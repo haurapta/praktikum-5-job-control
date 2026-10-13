@@ -19,6 +19,8 @@ Ganti nama /home/mahasiswa dengan nama anda sendiri. Pada setiap   file tersebut
 ### c. Jalankan instruksi subtitute user, kemudian keluar dengan perintah exit sebagai berikut: $ su mahasiswa $ exit kemudian gunakan opsi – sebagai berikut : $ su – mahasiswa $ exit Jelaskan perbedaan kedua utilitas tersebut.
 <img width="658" height="297" alt="pk5 1c" src="https://github.com/user-attachments/assets/ad1bc2b2-effc-43f0-9d8e-6c3df951f33d" />
 
+## su username :	Beralih ke pengguna lain tanpa memulai lingkungan login secara penuh.
+## su - username:	Beralih ke pengguna lain dengan lingkungan login, termasuk pengaturan lingkungan dan pembacaan file profile login yang sesuai.
 ## 2. Prompt String (PS) 
 ### a. Edit file .bash_profile, ganti prompt PS1 dengan ‘>’. Instruksi export diperlukan dengan parameter nama variable tersebut, agar perubahan variable PS1 dikenal oleh semua shell PS1=’> ‘   export PS1 
 <img width="665" height="76" alt="pk5 2a" src="https://github.com/user-attachments/assets/f6a707e6-da65-48d3-938d-9fcbd2e8bdd1" />
