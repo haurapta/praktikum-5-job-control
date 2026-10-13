@@ -2,6 +2,7 @@
 VI. Tugas 
 ## 1. Eksekusi seluruh profile yang ada : 
 ### a. Edit file profile /etc/profile dan tampilkan pesan sebagai berikut : echo “Profile dari /etc/profile” 
+<img width="664" height="453" alt="pk5 1a" src="https://github.com/user-attachments/assets/3bc83cf5-5f0f-4939-b551-3b954c940beb" />
 ### b. Asumsi nama anda stD02001, maka edit semua profile yang ada yaitu : 
 #### /home/stD02001/.bash_profile 
 #### /home/. stD02001/.bash_login 
