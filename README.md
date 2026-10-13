@@ -4,11 +4,15 @@ VI. Tugas
 ### a. Edit file profile /etc/profile dan tampilkan pesan sebagai berikut : echo “Profile dari /etc/profile” 
 <img width="664" height="453" alt="pk5 1a" src="https://github.com/user-attachments/assets/3bc83cf5-5f0f-4939-b551-3b954c940beb" />
 <img width="684" height="466" alt="pk5 1aa" src="https://github.com/user-attachments/assets/905c5f0f-98f7-4f90-a7d3-1548564a14c2" />
+
 ### b. Asumsi nama anda stD02001, maka edit semua profile yang ada yaitu : 
 #### /home/stD02001/.bash_profile 
 #### /home/. stD02001/.bash_login 
 #### /home/mahasiswa/.profile   
 #### /home/mahasiswa/.bashrc 
+<img width="681" height="477" alt="pk5 1bbb" src="https://github.com/user-attachments/assets/103f2e92-f7e1-47a0-a12e-e158bec3d25f" />
+<img width="696" height="475" alt="pk5 1bb" src="https://github.com/user-attachments/assets/4fc4e2f4-b9bb-4386-b2e1-d59e9a2e8315" />
+<img width="671" height="442" alt="pk5 1b" src="https://github.com/user-attachments/assets/d08a3058-c15f-406c-a7fa-687faf14f81b" />
 Ganti nama /home/mahasiswa dengan nama anda sendiri. Pada setiap   file tersebut, cantumkan mahasiswa/.bash_profile : instruksi echo, misalnya pada /home/ echo “Profile dari .bash_profile” Lakukan hal yang sama untuk file lainnya, sesuaikan tampilan dengan nama file yang bersangkutan.   
 ### c. Jalankan instruksi subtitute user, kemudian keluar dengan perintah exit sebagai berikut: $ su mahasiswa $ exit kemudian gunakan opsi – sebagai berikut : $ su – mahasiswa $ exit Jelaskan perbedaan kedua utilitas tersebut.
 
