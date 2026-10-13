@@ -40,10 +40,14 @@ Ganti nama /home/mahasiswa dengan nama anda sendiri. Pada setiap   file tersebut
 
 ## 5. Jobs 
 ### a. Buat shell-script yang melakukan loop dengan nama pwaktu.sh, setiap 10 detik, kemudian menyimpan tanggal dan jam pada file hasil. #!/bin/bash   while [ true ]  do   date >> hasil  sleep 10 done   
+<img width="644" height="100" alt="pk5 5a" src="https://github.com/user-attachments/assets/97c96161-9d8c-49fd-8ba8-52f01e6c2568" />
 ### b. Jalankan sebagai background; kemudian jalankan satu program (utilitas find) di background sebagai berikut : $ jobs $ find / -print > files 2>/dev/null & $ jobs 
 <img width="655" height="92" alt="pk5 5b" src="https://github.com/user-attachments/assets/bda3b30e-c157-42b6-974e-890dc35cbf5a" />
 ### c. Jadikan program ke 1 sebagai foreground, tekan ^Z dan kembalikan program tersebut ke background $ fg %1 $ bg 
+<img width="667" height="178" alt="pk5 5c" src="https://github.com/user-attachments/assets/229cb579-4083-40d7-82f0-fa8f11b0629b" />
 ### d. Stop program background dengan utilitas kill $ ps x $ kill [Nomor PID] 
+<img width="685" height="607" alt="pk5 5d" src="https://github.com/user-attachments/assets/4a9a841c-0191-44b2-81f7-3a94e778fe5b" />
+<img width="673" height="90" alt="pk5 5dd" src="https://github.com/user-attachments/assets/a32eb05d-58c9-460d-a63f-02955ac8ba0e" />
 
 ## 6. History 
 ### a. Ganti nilai HISTSIZE dari 1000 menjadi 20 $ HISTSIZE=20 $ h 
